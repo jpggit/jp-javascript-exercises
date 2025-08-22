@@ -11,7 +11,7 @@ const findTheOldest = function(people) {
         ? current 
         : oldestSoFar
     }, people[0]);
-    return oldestPerson.name;
+    return oldestPerson;
 };
 
 // Do not edit below this line
